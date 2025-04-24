@@ -13,3 +13,7 @@ Uses the modulo operator to check the remainder of dividing the number by 2 and 
 #3 Factorial
 Multiply each decremental number from an argument n up to 1 in a loop then returns the factorial which is then output to the console
 
+#4 Reverse a String
+The function works by passing in a word, which is then converted to a list 
+Another list, reversed_word is them initialised with 'none' values and then populated with the elements of the list of word.
+The reversed_word elements are then joined together using the join() method
