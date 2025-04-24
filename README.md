@@ -17,3 +17,6 @@ Multiply each decremental number from an argument n up to 1 in a loop then retur
 The function works by passing in a word, which is then converted to a list 
 Another list, reversed_word is them initialised with 'none' values and then populated with the elements of the list of word.
 The reversed_word elements are then joined together using the join() method
+
+#5 Factorial(with recursion)
+Has a base case that terminates the recursive calls as n is multiplied by its decrement
