@@ -8,4 +8,5 @@ def is_even_or_odd(number):
 
 #Example function calls with both odd and even numbers
 is_even_or_odd(31)
+is_even_or_odd(-3)
 is_even_or_odd(10000020)

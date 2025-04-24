@@ -20,3 +20,6 @@ reverse("elihw")
 
 #Palindrome being the same forward and backwards
 reverse("racecar")
+
+reverse("reverse")
+reverse("esrever")

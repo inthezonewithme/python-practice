@@ -10,3 +10,5 @@ def summation(array):
 
 #calling the function with an example list as the argument and printing the result
 print(summation([1,2,3,4,5]))
+print(summation([]))
+print(summation([1,2,3,4,5,6,7]))

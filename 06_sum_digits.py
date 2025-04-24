@@ -16,5 +16,5 @@ def sum_digits(n):
 
     return sum
 
-print(sum_digits(45))
+print(sum_digits(56))
 print(sum_digits(104))
