@@ -9,3 +9,7 @@ Example usage with the list[1,2,3,4,5]
 
 #2 Even or Odd#
 Uses the modulo operator to check the remainder of dividing the number by 2 and prints the result
+
+#3 Factorial
+Multiply each decremental number from an argument n up to 1 in a loop then returns the factorial which is then output to the console
+
