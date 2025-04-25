@@ -108,7 +108,7 @@ def reverse(word):
 ``` python
     word_list = list(word)
 ```
-+ I initialised an list that is empty. I had initially assumed that assigning reversed_word to word_list creates a copy of word_list but it actually points to the same reference as word_list. So any further manipulation of reversed_word alters word_list as well leading to undesired results
++ I initialised a list that is empty. I had initially assumed that assigning reversed_word to word_list creates a copy of word_list but it actually points to the same reference as word_list. So any further manipulation of reversed_word alters word_list as well leading to undesired results. So the better option was initialising an empty list, reversed_word with the length equal to word_list
 
     ``` python
     reversed_word = [None]*len(word)
