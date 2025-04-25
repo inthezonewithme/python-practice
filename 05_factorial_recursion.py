@@ -1,6 +1,6 @@
 def factorial(n):
 
-    if n<=0:
+    if n<0:
         return "Error! No such factorial"
     #Base case that makes sure there is a condition that terminates the recursive calls
     #As we continue multiplying n by the factorial of n-1, it will get to a point where 1 will be the return value then subsequent 'n's' get multiplied
