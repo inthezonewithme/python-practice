@@ -28,9 +28,9 @@ The simple function takes in a list(array) as its parameter and iterates through
 
 + Calling the function with an example list as the argument and printing the result
 ``` python
-print(summation([1,2,3,4,5]))
-print(summation([]))
-print(summation([1,2,3,4,5,6,7]))
+print(summation([1,2,3,4,5]))#Outputs 15
+print(summation([]))#Outputs 0
+print(summation([1,2,3,4,5,6,7]))#Outputs 28
 ```
 # 2 Even or Odd
 Uses the modulo operator to check the remainder of dividing the number by 2 and prints the result
@@ -129,14 +129,14 @@ def reverse(word):
 
 + Example function calls with words and their reverses to see if they are the same
 ``` python
-reverse("while")
-reverse("elihw")
+reverse("while")#Outputs 'elihw'
+reverse("elihw")#Outputs 'while'
 
 #Palindrome being the same forward and backwards
-reverse("racecar")
+reverse("racecar")#Outputs 'racecar'
 
-reverse("reverse")
-reverse("esrever")
+reverse("reverse")#Outputs 'esrever'
+reverse("esrever")#Outputs 'reverse'
 ```
 # 5 Factorial(with recursion)
 
@@ -155,18 +155,20 @@ if n<0:
 + Base case that makes sure there is a condition that terminates the recursive calls
 + As we continue multiplying n by the factorial of n-1, it will get to a point where 1 will be the return value then subsequent 'n's' get multiplied
 ```python
+
 if n==0 or n==1:
         return 1
 
     return n*factorial(n-1)
+
 ```
     
 
 + Example calls of the factorial function with the same outputs of the previous factorial fuction
 ```python
-print(factorial(-9))
-print(factorial(5))
-print(factorial(6))
+print(factorial(-9)) #Outputs 'Error! No such factorial'
+print(factorial(5)) #Outputs 120
+print(factorial(6)) #Outputs 720
 ```
 
 # 6 Sum of digits in a number
@@ -216,7 +218,7 @@ return sum
     
 + Example function calls
 ```python
-print(sum_digits(56))
-print(sum_digits(104))
+print(sum_digits(56)) #Outputs 11
+print(sum_digits(104)) #Outputs 5
 ```
 
