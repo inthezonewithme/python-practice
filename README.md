@@ -97,7 +97,7 @@ print(factorial(3)) #Outputs 6
 # 4 Reverse a String
 
 The function works by passing in a word, which is then converted to a list 
-Another list, reversed_word is them initialised with 'none' values and then populated with the elements of the list of word.
+Another list, reversed_word is them initialised with 'none' values and then every i-th elements of reversed_word is populated with the length-i-1-th element of word_list
 The reversed_word elements are then joined together using the join() method
 
 + Function definition which takes in a string word, that is to be reversed
